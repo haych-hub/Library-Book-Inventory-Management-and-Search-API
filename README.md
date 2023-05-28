@@ -1,5 +1,7 @@
-Cloud Computing Miniproject
-Library Book Inventory Management and Search API
+#Cloud Computing Miniproject
+
+#Library Book Inventory Management and Search API
+
 This project is designed to assist librarians and other book keepers by providing a method for storing and accessing information on books they already manage, and for discovering a range of new titles through external APIs. The RESTful API that this app provides can be used to store and retrieve information on books from a cloud hosted database, while the external APIs supported by the app allow for the easy research and discovery of new books in a given field using the Google Books API. Further research into these fields is supported by the Twitter API, which allows users to view discussions and reviews of new books on Twitter.
 
 The database used is a MySQL database hosted using AWS RDS and can be designed include a range of book attributes including price and region details. The app is then run in Kubernetes to provide effective resource management through load balancing should multiple users decide to use the app at once.
